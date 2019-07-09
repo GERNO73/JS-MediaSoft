@@ -1,23 +1,18 @@
 function numberOne() {
 	let n1 = '';
 	n1 = prompt('Введите первое число','');
-	console.log(n1);
 	n1 = +n1;
-	console.log(n1);
 	return n1;
 }
 function numberTwo() {
 	let n2 = '';
 	n2 = prompt('Введите второе число','');
-	console.log(n2);
 	n2 = +n2;
-	console.log(n2);
 	return n2;
 }
 function chooseAction() {
 	let a = '';
 	a = prompt('Выберите операцию: *, +, -, /, %','');
-	console.log(a);
 	return a;
 }
 function calc(i,j,act) {
